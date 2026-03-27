@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <script src="https://kit.fontawesome.com/0a7962292c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Sandun Dharmasiri</title>
+  </head>
+  
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+  <a href="https://www.linkedin.com/in/sandun-dharmasiri-262261281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="link link--no-underline">SD.</a>
+</h3>
+
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#certificates">Certifications</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#resume">Resume</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <hr>
+
+    <main>
+      <!-- About -->
+      <div class="profile-picture">
+        <img src="profile.jpg" alt="Profile Picture">
+      </div>
+
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Sandun Dharmasiri.</span></h1>
+        <h2 class="about__role">Full Stack Developer | AI/ML Enthusiast </h2>
+        <p class="about__desc">
+            I’m a Software Engineering undergraduate at KDU, specializing in full-stack development and AI-powered applications. 
+            I build intelligent systems using machine learning, NLP, and modern web technologies to solve real-world problems.
+        </p>
+
+        <div class="about__contact center">
+          <a href="https://github.com/Sandun963" aria-label="github" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/sandun-dharmasiri-262261281?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="linkedin" class="link link--icon">
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+
+    
+      <!-- Projects -->
+<section id="projects" class="section projects">
+  <h2 class="section__title">Projects</h2>
+
+  <div class="projects__grid">
+    <div class="project">
+        <h3 class="project__title">
+          Student Management System – Web Based Academic Management Platform
+        </h3>
+
+        <!-- Problem -->
+        <div class="project__problem">
+          <strong>Problem:</strong> Managing student records manually is inefficient, error-prone, and lacks proper tracking of academic data and user activities.
+        </div>
+
+        <!-- Solution -->
+        <div class="project__solution">
+          <strong>Solution:</strong> Developed a centralized web-based system to efficiently manage student data, course enrollments, and track user activity in real-time.
+        </div>
+
+        <!-- Key Features -->
+        <ul class="project__features">
+          <li>📚 Add, update, delete, and search student records</li>
+          <li>🆔 View enrolled courses using Student ID</li>
+          <li>📊 Real-time login & logout activity logs</li>
+          <li>⚡ Fast and responsive user interface</li>
+        </ul>
+
+        <!-- Technologies -->
+        <ul class="project__stack">
+          <li class="project__stack-item">Next.js</li>
+          <li class="project__stack-item">Firebase</li>
+          <li class="project__stack-item">JavaScript</li>
+          <li class="project__stack-item">HTML</li>
+          <li class="project__stack-item">CSS</li>
+          <li class="project__stack-item">Vercel</li>
+        </ul>
+
+        <!-- Links -->
+        <div class="project__links">
+          <a href="https://github.com/Sandun963/Student-Management-System.git" target="_blank" class="link link--icon">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+
+    <div class="project">
+      <h3 class="project__title">
+        Hotel Booking & Notification System – Smart Reservation Platform
+      </h3>
+
+      <!-- Problem -->
+      <div class="project__problem">
+        <strong>Problem:</strong> Traditional hotel booking systems lack real-time availability updates, secure authentication, and automated notification mechanisms, leading to poor user experience and inefficiencies.
+      </div>
+
+      <!-- Solution -->
+      <div class="project__solution">
+        <strong>Solution:</strong> Developed a modern web-based hotel booking system that provides real-time room availability, secure user authentication, and automated email notifications for bookings and updates.
+      </div>
+
+      <!-- Key Features -->
+      <ul class="project__features">
+        <li>🏨 Real-time room availability based on selected dates</li>
+        <li>🔐 Secure authentication using bcrypt password hashing</li>
+        <li>📧 Automated email notifications (booking, cancellation, reminders)</li>
+        <li>⚡ RESTful API endpoints for bookings, users, and room management</li>
+        <li>🗄️ Efficient database handling using Prisma ORM</li>
+        <li>🛡️ Robust error handling for better reliability and UX</li>
+      </ul>
+
+      <!-- Technologies -->
+      <ul class="project__stack">
+        <li class="project__stack-item">Next.js</li>
+        <li class="project__stack-item">PostgreSQL</li>
+        <li class="project__stack-item">Supabase</li>
+        <li class="project__stack-item">Prisma</li>
+        <li class="project__stack-item">Nodemailer</li>
+        <li class="project__stack-item">Vercel</li>
+      </ul>
+
+      <!-- Links -->
+      <div class="project__links">
+        <a href="YOUR_GITHUB_LINK" target="_blank" class="link link--icon">
+          <i class="fab fa-github"></i>
+        </a>
+
+        <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+    </div>
+
+
+    <div class="project">
+        <h3 class="project__title">
+          WatchIt – AI Movie Recommendation System
+        </h3>
+
+        <!-- Problem -->
+        <div class="project__problem">
+          <strong>Problem:</strong> Users struggle to find movies based on vague ideas or incomplete descriptions.
+        </div>
+
+        <!-- Solution -->
+        <div class="project__solution">
+          <strong>Solution:</strong> Built an AI-powered system that understands user intent using NLP and recommends movies via semantic similarity.
+        </div>
+
+        <!-- Key Features -->
+        <ul class="project__features">
+          <li>🔍 Semantic search using Sentence Transformers</li>
+          <li>🎬 Real-time movie data integration (TMDB API)</li>
+          <li>⚡ Fast similarity matching using vector embeddings</li>
+          <li>🧠 NLP-based keyword & description understanding</li>
+        </ul>
+
+        <!-- Technologies -->
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">Flask</li>
+          <li class="project__stack-item">PyTorch</li>
+          <li class="project__stack-item">Pandas</li>
+          <li class="project__stack-item">Sentence Transformers</li>
+          <li class="project__stack-item">TMDB API</li>
+        </ul>
+
+        <!-- Links -->
+        <div class="project__links">
+          <a href="https://github.com/Sandun963/WatcHit.git" target="_blank" class="link link--icon">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+
+    <div class="project">
+        <h3 class="project__title">
+          AI-Based Forex Trading Prediction Tool – Smart Decision Engine
+        </h3>
+
+        <!-- Problem -->
+        <div class="project__problem">
+          <strong>Problem:</strong> Short-term trading decisions are highly affected by market noise, lack of structured analysis, and difficulty in interpreting multiple indicators simultaneously, leading to inconsistent and risky trades.
+        </div>
+
+        <!-- Solution -->
+        <div class="project__solution">
+          <strong>Solution:</strong> Developed an AI-powered trading analysis system that combines time-series forecasting with technical indicators to generate probability-based BUY, SELL, or NO TRADE signals through an interactive dashboard.
+        </div>
+
+        <!-- Key Features -->
+        <ul class="project__features">
+          <li>📊 AI-based probability prediction using Chronos time-series transformer</li>
+          <li>📈 Multi-timeframe analysis (5m, 15m, 1h) for better trend accuracy</li>
+          <li>⚖️ Rule-based decision engine with volatility and trend filters</li>
+          <li>📉 Technical indicators including RSI, ATR, and volatility z-score</li>
+          <li>🌐 Real-time Forex data integration using OANDA API</li>
+          <li>🎯 Interactive Streamlit dashboard for live signal generation</li>
+        </ul>
+
+        <!-- Technologies -->
+        <ul class="project__stack">
+          <li class="project__stack-item">Python</li>
+          <li class="project__stack-item">Streamlit</li>
+          <li class="project__stack-item">PyTorch</li>
+          <li class="project__stack-item">Chronos Transformer</li>
+          <li class="project__stack-item">Pandas</li>
+          <li class="project__stack-item">NumPy</li>
+          <li class="project__stack-item">OANDA API</li>
+        </ul>
+
+        <!-- Links -->
+        <div class="project__links">
+          <a href="https://github.com/Sandun963/market_tool.git" target="_blank" class="link link--icon">
+            <i class="fab fa-github"></i>
+          </a>
+
+          <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+
+      
+      <div class="project">
+          <h3 class="project__title">
+            ScarPit – AI Wikipedia Knowledge Extraction System
+          </h3>
+
+          <!-- Problem -->
+          <div class="project__problem">
+            <strong>Problem:</strong> Wikipedia articles contain large amounts of unstructured text, making it difficult for users to quickly extract key information, understand important concepts, and identify relevant insights efficiently.
+          </div>
+
+          <!-- Solution -->
+          <div class="project__solution">
+            <strong>Solution:</strong> Developed an AI-powered knowledge extraction system that scrapes Wikipedia articles and applies natural language processing techniques to transform unstructured text into structured outputs including summaries, key facts, important concepts, and keywords through an interactive web interface.
+          </div>
+
+          <!-- Key Features -->
+          <ul class="project__features">
+            <li>📚 Automated Wikipedia scraping using HTTP requests and HTML parsing</li>
+            <li>📝 Intelligent summary extraction from article content</li>
+            <li>⭐ Key fact generation by filtering meaningful sentences</li>
+            <li>🧠 Important concept extraction from textual patterns</li>
+            <li>🏷 Keyword extraction with tag-based visualization</li>
+            <li>🎨 Modern UI with background styling and structured content cards</li>
+            <li>⚡ Fast and lightweight NLP processing without heavy dependencies</li>
+          </ul>
+
+          <!-- Technologies -->
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Streamlit</li>
+            <li class="project__stack-item">BeautifulSoup</li>
+            <li class="project__stack-item">Requests</li>
+            <li class="project__stack-item">NLP (Custom Processing)</li>
+            <li class="project__stack-item">HTML/CSS</li>
+          </ul>
+
+          <!-- Links -->
+          <div class="project__links">
+            <a href="https://github.com/Sandun963/Wikipedia-Knowledge-Scarper.git" target="_blank" class="link link--icon">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="project">
+          <h3 class="project__title">
+            CalCit – Smart Calculator & Personal Finance Assistant
+          </h3>
+
+          <!-- Problem -->
+          <div class="project__problem">
+            <strong>Problem:</strong> Users often rely on multiple separate apps for basic calculations, conversions, and personal finance tracking, resulting in inefficiency, poor user experience, and lack of centralized utility tools.
+          </div>
+
+          <!-- Solution -->
+          <div class="project__solution">
+            <strong>Solution:</strong> Developed a multi-functional mobile application that integrates essential calculators, unit conversions, and a budget tracking system into a single, user-friendly platform, enabling users to perform daily calculations and manage finances efficiently.
+          </div>
+
+          <!-- Key Features -->
+          <ul class="project__features">
+            <li>🔢 Standard calculator for quick and accurate arithmetic operations</li>
+            <li>💸 Discount calculator to compute savings and final price instantly</li>
+            <li>🍽️ Tip calculator for bill splitting and gratuity calculation</li>
+            <li>📏 Unit converter supporting length, weight, temperature, area, and volume</li>
+            <li>🎂 Age calculator providing exact age in years, months, and days</li>
+            <li>📊 Budget tracker to monitor expenses and manage personal finances</li>
+            <li>🎨 Clean and responsive UI with centered layouts and styled output displays</li>
+          </ul>
+
+          <!-- Technologies -->
+          <ul class="project__stack">
+            <li class="project__stack-item">Flutter</li>
+            <li class="project__stack-item">Dart</li>
+            <li class="project__stack-item">Material UI</li>
+            <li class="project__stack-item">Stateful Widgets</li>
+            <li class="project__stack-item">Intl Package</li>
+          </ul>
+
+          <!-- Links -->
+          <div class="project__links">
+            <a href="https://github.com/Sandun963/calCit.git" target="_blank" class="link link--icon">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="project">
+          <h3 class="project__title">
+            AI YouTube Video Summarizer – Smart Content Insight Tool
+          </h3>
+
+          <!-- Problem -->
+          <div class="project__problem">
+            <strong>Problem:</strong> Users spend excessive time watching long videos and struggle to quickly extract key insights from large amounts of content.
+          </div>
+
+          <!-- Solution -->
+          <div class="project__solution">
+            <strong>Solution:</strong> Built an AI-powered web app that extracts transcripts and generates concise summaries, enabling faster understanding of video content.
+          </div>
+
+          <!-- Key Features -->
+          <ul class="project__features">
+            <li>🔗 Accepts YouTube video and Shorts URLs</li>
+            <li>📝 Automatically fetches transcripts using API</li>
+            <li>🤖 AI-powered summarization using Transformer models</li>
+            <li>⚡ Generates concise summaries within seconds</li>
+            <li>📄 Displays full transcript alongside summary</li>
+            <li>🎨 Dark-themed UI with background image and styled components</li>
+            <li>⚠️ Error handling for invalid links and unavailable transcripts</li>
+          </ul>
+
+          <!-- Technologies -->
+          <ul class="project__stack">
+            <li class="project__stack-item">Python</li>
+            <li class="project__stack-item">Flask</li>
+            <li class="project__stack-item">Hugging Face Transformers</li>
+            <li class="project__stack-item">PyTorch</li>
+            <li class="project__stack-item">HTML</li>
+            <li class="project__stack-item">CSS</li>
+          </ul>
+
+          <!-- Links -->
+          <div class="project__links">
+            <a href="https://github.com/Sandun963/yt-summerizer.git" target="_blank" class="link link--icon">
+              <i class="fab fa-github"></i>
+            </a>
+
+            <a href="YOUR_LINKEDIN_POST_OR_PROJECT" target="_blank" class="link link--icon">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+</section>
+
+
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <div class="skills__grid">
+
+  <!-- 🧩 Frontend Development -->
+        <div class="skill">
+          <i class="devicon-html5-plain skill__icon"></i>
+          <h3>HTML</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-css3-plain skill__icon"></i>
+          <h3>CSS</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-javascript-plain skill__icon"></i>
+          <h3>JavaScript</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-react-plain skill__icon"></i>
+          <h3>React</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-angular-plain skill__icon"></i>
+          <h3>Angular</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-flutter-plain skill__icon"></i>
+          <h3>Flutter</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <!-- 💻 Programming Languages -->
+        <div class="skill">
+          <i class="devicon-cplusplus-plain skill__icon"></i>
+          <h3>C++</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-csharp-plain skill__icon"></i>
+          <h3>C#</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <!-- ⚙️ Backend Development -->
+        <div class="skill">
+          <i class="devicon-php-plain skill__icon"></i>
+          <h3>PHP</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-java-plain skill__icon"></i>
+          <h3>Java</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-python-plain skill__icon"></i>
+          <h3>Python</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-flask-plain skill__icon"></i>
+          <h3>Flask</h3>
+          <p class="skill-level skill-level--beginner">Beginner</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-dart-plain skill__icon"></i>
+          <h3>Dart</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <!-- 🧠 AI / Machine Learning -->
+        <div class="skill">
+          <i class="fas fa-robot skill__icon"></i>
+          <h3>Machine Learning</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-pytorch-original skill__icon"></i>
+          <h3>PyTorch</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <!-- 🗃️ Databases -->
+        <div class="skill">
+          <i class="devicon-mysql-plain skill__icon"></i>
+          <h3>MySQL</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-postgresql-plain skill__icon"></i>
+          <h3>PostgreSQL</h3>
+          <p class="skill-level skill-level--intermediate">Intermediate</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-firebase-plain skill__icon"></i>
+          <h3>Firebase</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <!-- 🧰 DevOps / Tools -->
+        <div class="skill">
+          <i class="devicon-github-plain skill__icon"></i>
+          <h3>Version Control (Git/GitHub)</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+        <div class="skill">
+          <i class="devicon-vercel-plain skill__icon"></i>
+          <h3>Vercel</h3>
+          <p class="skill-level skill-level--advanced">Advanced</p>
+        </div>
+
+      </div>
+
+
+        </div>
+      </section>
+
+      <!-- Certificates -->
+      <section id="certificates" class="section certificates">
+        <h2 class="section__title">Certificates</h2>
+        <div class="certificates__grid">
+ 
+          <div class="certificate">
+            <h4>Introduction to AI – Coursera</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://coursera.org/share/9519fc5fb482fe4e34d84893bb279587"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+ 
+          <div class="certificate">
+            <h4>Machine Learning & Artificial Intelligence Beginners Course – Udemy</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://ude.my/UC-f8eb2968-00e4-479e-aba5-00b2bfdb9660"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>Python Developer - Sololearn</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://www.sololearn.com/certificates/CC-XS0LIWQ1"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+ 
+          <div class="certificate">
+            <h4>Foundations of Data Science - Coursera</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://coursera.org/share/90d7ba793dce889f841f713c83657912"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>Web Development - Sololearn</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://www.sololearn.com/certificates/CC-LIUZMJ12"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>The Nuts and Bolts of Machine Learning - Coursera</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://coursera.org/share/ea61d246d1c4ead6f51dbe27bd2ab886"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>ML for Beginners - Sololearn</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://www.sololearn.com/certificates/CC-HZ2EKMKV"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>Angular - Sololearn</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://www.sololearn.com/certificates/CC-PDFJT2GK"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>Configuration Management and the Cloud - Coursera</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://coursera.org/share/f1c91effd75fcfc80c1b007c200a6009"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+          <div class="certificate">
+            <h4>Introduction to LLMs - Sololearn</h4>
+            <p>Covered HTML, CSS, JavaScript, and responsive design principles.</p>
+            <a href="https://www.sololearn.com/certificates/CC-EQ9TWVBZ"
+              class="certificate__link"
+              target="_blank"
+              rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> Verify Certificate
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Resume -->
+      <section id="resume" class="section resume center">
+        <h2 class="section__title">Resume</h2>
+
+        <p class="resume__desc">
+          A concise overview of my experience in Full Stack Development and AI/ML projects,
+          including technical skills, tools, and real-world applications.
+        </p>
+
+        <div class="resume__actions">
+
+          <!-- Download Resume -->
+          <a href="Sandun Dharmasiri.pdf" download class="btn btn--outline">
+            <i class="fas fa-download"></i> Download Resume
+          </a>
+        </div>
+
+        <p class="resume__meta">
+          Last updated: 2026 • Focus: Full Stack + AI
+        </p>
+      </section>
+
+
+      <!-- Contact -->
+        <section class="section contact center" id="contact">
+          <h2 class="section__title">Contact</h2>
+
+          <a href="mailto:sandundharmasiri39@gmail.com" class="contact__card">
+            <i class="fas fa-envelope contact__icon"></i>
+
+            <h3 class="contact__title">Email Me</h3>
+
+            <p class="contact__email">sandundharmasiri39@gmail.com</p>
+
+            <span class="contact__hint">Click to Open →</span>
+          </a>
+        </section>
+    </main>
+
+    <footer class="footer">
+      <a href="https://github.com/Sandun963" class="link footer__link">
+        Created By  <span class="brand">SD.</span>
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
